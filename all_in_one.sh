@@ -1195,9 +1195,9 @@ function main_account_management() {
     echo -e "——————————————————————————————————————————————————————————————————————————————————"
     echo -e "${Blue}账号管理${Font}\n"
     echo -e "${Sky_Blue}小雅留言，会员购买指南：
-基础版：阿里非会员+115会员+夸克88vip
-升级版：阿里svip+115会员+夸克88vip（用TV token破解阿里svip的高速流量限制）
-豪华版：阿里svip+第三方权益包+115会员+夸克svip
+基础版：阿里非会员+115会员
+升级版：阿里svip+115会员（用TV token破解阿里svip的高速流量限制）
+豪华版：阿里svip+第三方权益包+115会员
 乞丐版：满足看emby画报但不要播放，播放用tvbox各种免费源${Font}\n"
     echo -ne "${INFO} 界面加载中...${Font}\r"
     echo -e "1、115 Cookie                        （当前：$(if [ -f "${config_dir}/115_cookie.txt" ]; then if CHECK_OUT=$(check_115_cookie "${config_dir}"); then echo -e "${Green}$(echo -e ${CHECK_OUT} | sed 's/\[.*\] //')${Font}"; else echo -e "${Red}错误${Font}"; fi; else echo -e "${Red}未配置${Font}"; fi)）
@@ -1465,7 +1465,12 @@ function install_xiaoya_alist() {
         INFO "安装完成！"
         INFO "服务已成功启动，您可以根据使用需求尝试访问以下的地址："
         INFO "alist: ${Sky_Blue}http://ip:5678${Font}"
-        INFO "webdav: ${Sky_Blue}http://ip:5678/dav${Font}, 默认用户密码: ${Sky_Blue}guest/guest_Api789${Font}"
+        if [[ ${force_login} == [Yy] ]] || [[ -f "${CONFIG_DIR}/guestpass.txt" ]]; then
+            _password="$(head -n 1 "${CONFIG_DIR}/guestpass.txt")"
+            INFO "webdav: ${Sky_Blue}http://ip:5678/dav${Font}, 用户密码: ${Sky_Blue}guest/${_password}${Font}"
+        else
+            INFO "webdav: ${Sky_Blue}http://ip:5678/dav${Font}, 默认用户密码: ${Sky_Blue}guest/guest_Api789${Font}"
+        fi
         INFO "tvbox: ${Sky_Blue}http://ip:5678/tvbox/my_ext.json${Font}"
     else
         ERROR "安装失败！"
@@ -5989,9 +5994,10 @@ function main_other_tools() {
 
 function main_return() {
 
-    local out_tips
+    local out_tips config_dir
     cat /tmp/xiaoya_alist
     echo -ne "${INFO} 主界面加载中...${Font}\r"
+    out_tips=""
     if ! curl -s -o /dev/null -m 4 -w '%{time_total}' --head --request GET "$(cat "${DDSREM_CONFIG_DIR}/image_mirror.txt")" &> /dev/null; then
         if auto_choose_image_mirror; then
             out_tips="${Green}提示：已为您自动配置Docker镜像源地址为: $(cat "${DDSREM_CONFIG_DIR}/image_mirror.txt")${Font}\n"
@@ -5999,6 +6005,18 @@ function main_return() {
             out_tips="${Red}警告：当前环境无法访问Docker镜像仓库，请输入66进入Docker镜像源设置更改镜像源${Font}\n"
         fi
     fi
+
+    if docker container inspect "$(cat ${DDSREM_CONFIG_DIR}/container_name/xiaoya_alist_name.txt)" > /dev/null 2>&1; then
+        config_dir="$(docker inspect --format='{{range $v,$conf := .Mounts}}{{$conf.Source}}:{{$conf.Destination}}{{$conf.Type}}~{{end}}' "$(cat ${DDSREM_CONFIG_DIR}/container_name/xiaoya_alist_name.txt)" | tr '~' '\n' | grep bind | sed 's/bind//g' | grep ":/data$" | awk -F: '{print $1}')"
+        if [ -n "${config_dir}" ]; then
+            if [ -f "${config_dir}/opentoken_url.txt" ]; then
+                if [[ "$(cat "${config_dir}/opentoken_url.txt")" == *"nn.ci"* ]] || [[ "$(cat "${config_dir}/opentoken_url.txt")" == *"xhofe.top"* ]]; then
+                    out_tips+="${Red}警告：请立即选择菜单1-4更换阿里云盘Token并更新最新版本小雅，否则可能导致隐私信息泄漏${Font}\n"
+                fi
+            fi
+        fi
+    fi
+
     # shellcheck disable=SC2154
     echo -e "${out_tips}1、安装/更新/卸载 小雅Alist & 账号管理        当前状态：$(judgment_container "${xiaoya_alist_name}")
 2、安装/更新/卸载 小雅Emby全家桶              当前状态：$(judgment_container "${xiaoya_emby_name}")
