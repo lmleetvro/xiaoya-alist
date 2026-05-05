@@ -375,22 +375,6 @@ function update_media() {
 
         INFO "设置目录权限..."
         chmod -R 777 "${MEDIA_DIR}"/xiaoya
-    elif [ "${1}" == "pikpak.mp4" ]; then
-        extra_parameters="--workdir=/media/xiaoya"
-
-        mkdir -p "${MEDIA_DIR}"/xiaoya
-
-        pikpak_size=$(du -k ${MEDIA_DIR}/temp/pikpak.mp4 | cut -f1)
-        if [[ "$pikpak_size" -le 14000000 ]]; then
-            ERROR "pikpak.mp4 下载不完整，文件大小(in KB):$pikpak_size 小于预期"
-            return 1
-        else
-            INFO "pikpak.mp4 文件大小验证正常"
-            pull_run_glue 7z x -aoa -mmt=16 /media/temp/pikpak.mp4
-        fi
-
-        INFO "设置目录权限..."
-        chmod -R 777 "${MEDIA_DIR}"/xiaoya
     elif [ "${1}" == "115.mp4" ]; then
         extra_parameters="--workdir=/media/xiaoya"
 
@@ -646,7 +630,7 @@ function compare_metadata_size() {
 
 }
 
-function detection_all_pikpak_update() {
+function detection_all_115_update() {
 
     compare_metadata_size "all.mp4"
     if [ "${__COMPARE_METADATA_SIZE}" == "1" ]; then
@@ -654,15 +638,6 @@ function detection_all_pikpak_update() {
     else
         if ! update_media "all.mp4"; then
             ERROR "all.mp4 元数据更新失败！"
-        fi
-    fi
-
-    compare_metadata_size "pikpak.mp4"
-    if [ "${__COMPARE_METADATA_SIZE}" == "1" ]; then
-        INFO "跳过 pikpak.mp4 更新"
-    else
-        if ! update_media "pikpak.mp4"; then
-            ERROR "pikpak.mp4 元数据更新失败！"
         fi
     fi
 
@@ -763,7 +738,7 @@ function main() {
 
     cat << EOF
 可添加参数解释：
-1. --auto_update_all_pikpak：是否开启all,pikpak,115自动下载更新（yes开启，no关闭）（可选，默认开启）
+1. --auto_update_all_115：是否开启all,115自动下载更新（yes开启，no关闭）（可选，默认开启）
 2. --auto_update_config：是否开启config自动同步（yes开启，no关闭）（可选，默认开启）
 3. --force_update_config：强制同步config（yes开启，no关闭）（可选，默认关闭）
 4. --media_dir：媒体库路径
@@ -920,11 +895,11 @@ EOF
 
     test_xiaoya_status
 
-    # all.mp4 和 pikpak.mp4 和 115.mp4
-    if [ "${AUTO_UPDATE_ALL_PIKPAK}" == "yes" ]; then
-        detection_all_pikpak_update
+    # all.mp4 和 115.mp4
+    if [ "${AUTO_UPDATE_ALL_115}" == "yes" ]; then
+        detection_all_115_update
     else
-        INFO "all.mp4 pikpak.mp4 115.mp4 更新已关闭"
+        INFO "all.mp4 115.mp4 更新已关闭"
     fi
     # config.mp4
     if [ "${AUTO_UPDATE_CONFIG}" == "yes" ]; then
@@ -983,8 +958,8 @@ while [[ $# -gt 0 ]]; do
         FORCE_UPDATE_CONFIG="${1#*=}"
         shift
         ;;
-    --auto_update_all_pikpak=*)
-        AUTO_UPDATE_ALL_PIKPAK="${1#*=}"
+    --auto_update_all_115=*)
+        AUTO_UPDATE_ALL_115="${1#*=}"
         shift
         ;;
     *)
@@ -1026,8 +1001,8 @@ if [ -z ${FORCE_UPDATE_CONFIG} ]; then
     FORCE_UPDATE_CONFIG=no
 fi
 
-if [ -z ${AUTO_UPDATE_ALL_PIKPAK} ]; then
-    AUTO_UPDATE_ALL_PIKPAK=yes
+if [ -z ${AUTO_UPDATE_ALL_115} ]; then
+    AUTO_UPDATE_ALL_115=yes
 fi
 
 main

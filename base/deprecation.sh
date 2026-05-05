@@ -70,19 +70,19 @@ function install_xiaoya_notify_cron() {
     fi
 
     while true; do
-        INFO "是否开启自动同步 all pikpak 和 115 元数据 [Y/n]（默认 Y 开启）"
-        read -erp "Auto update all & pikpak:" AUTO_UPDATE_ALL_PIKPAK
-        [[ -z "${AUTO_UPDATE_ALL_PIKPAK}" ]] && AUTO_UPDATE_ALL_PIKPAK="y"
-        if [[ ${AUTO_UPDATE_ALL_PIKPAK} == [YyNn] ]]; then
+        INFO "是否开启自动同步 all 和 115 元数据 [Y/n]（默认 Y 开启）"
+        read -erp "Auto update all & 115:" AUTO_UPDATE_ALL_115
+        [[ -z "${AUTO_UPDATE_ALL_115}" ]] && AUTO_UPDATE_ALL_115="y"
+        if [[ ${AUTO_UPDATE_ALL_115} == [YyNn] ]]; then
             break
         else
             ERROR "非法输入，请输入 [Y/n]"
         fi
     done
-    if [[ ${AUTO_UPDATE_ALL_PIKPAK} == [Yy] ]]; then
-        auto_update_all_pikpak=yes
+    if [[ ${AUTO_UPDATE_ALL_115} == [Yy] ]]; then
+        auto_update_all_115=yes
     else
-        auto_update_all_pikpak=no
+        auto_update_all_115=no
     fi
 
     container_run_extra_parameters=$(cat ${DDSREM_CONFIG_DIR}/container_run_extra_parameters.txt)
@@ -102,7 +102,7 @@ function install_xiaoya_notify_cron() {
 
     # 组合定时任务命令
     CRON="${minu} ${hour} */${sync_day} * *   bash -c \"\$(curl -k https://ddsrem.com/xiaoya/xiaoya_notify.sh)\" -s \
---auto_update_all_pikpak=${auto_update_all_pikpak} \
+--auto_update_all_115=${auto_update_all_115} \
 --auto_update_config=${auto_update_config} \
 --media_dir=$(cat ${DDSREM_CONFIG_DIR}/xiaoya_alist_media_dir.txt) \
 --config_dir=$(cat ${DDSREM_CONFIG_DIR}/xiaoya_alist_config_dir.txt) \
@@ -130,7 +130,7 @@ $(cat ${DDSREM_CONFIG_DIR}/resilio_config_dir.txt)/cron.log 2>&1"
         INFO '已经添加下面的记录到crontab定时任务容器'
         INFO "${CRON}"
         docker_pull "ddsderek/xiaoya-cron:latest"
-        CRON_PARAMETERS="--auto_update_all_pikpak=${auto_update_all_pikpak} \
+        CRON_PARAMETERS="--auto_update_all_115=${auto_update_all_115} \
 --auto_update_config=${auto_update_config} \
 --media_dir=$(cat ${DDSREM_CONFIG_DIR}/xiaoya_alist_media_dir.txt) \
 --config_dir=$(cat ${DDSREM_CONFIG_DIR}/xiaoya_alist_config_dir.txt) \
@@ -418,7 +418,7 @@ function main_resilio() {
 function once_sync_emby_config() {
 
     if command -v crontab > /dev/null 2>&1; then
-        COMMAND_1=$(crontab -l | grep 'xiaoya_notify' | sed 's/^.*-s//; s/>>.*$//' | sed 's/--auto_update_all_pikpak=yes/--auto_update_all_pikpak=no/g')
+        COMMAND_1=$(crontab -l | grep 'xiaoya_notify' | sed 's/^.*-s//; s/>>.*$//' | sed 's/--auto_update_all_115=yes/--auto_update_all_115=no/g')
         if [[ $COMMAND_1 == *"--force_update_config"* ]]; then
             if [[ $COMMAND_1 == *"--force_update_config=no"* ]]; then
                 COMMAND_1="${COMMAND_1/--force_update_config=no/--force_update_config=yes}"
@@ -430,7 +430,7 @@ function once_sync_emby_config() {
             get_config_dir
             get_media_dir
             COMMAND="bash -c \"\$(curl -k https://ddsrem.com/xiaoya/xiaoya_notify.sh | head -n -2 && echo detection_config_update)\" -s \
---auto_update_all_pikpak=no \
+--auto_update_all_115=no \
 --auto_update_config=yes \
 --force_update_config=yes \
 --media_dir=${MEDIA_DIR} \
@@ -442,7 +442,7 @@ function once_sync_emby_config() {
             COMMAND="bash -c \"\$(curl -k https://ddsrem.com/xiaoya/xiaoya_notify.sh | head -n -2 && echo detection_config_update)\" -s ${COMMAND_1}"
         fi
     elif [ -f /etc/synoinfo.conf ]; then
-        COMMAND_1=$(grep 'xiaoya_notify' /etc/crontab | sed 's/^.*-s//; s/>>.*$//' | sed 's/--auto_update_all_pikpak=yes/--auto_update_all_pikpak=no/g')
+        COMMAND_1=$(grep 'xiaoya_notify' /etc/crontab | sed 's/^.*-s//; s/>>.*$//' | sed 's/--auto_update_all_115=yes/--auto_update_all_115=no/g')
         if [[ $COMMAND_1 == *"--force_update_config"* ]]; then
             if [[ $COMMAND_1 == *"--force_update_config=no"* ]]; then
                 COMMAND_1="${COMMAND_1/--force_update_config=no/--force_update_config=yes}"
@@ -454,7 +454,7 @@ function once_sync_emby_config() {
             get_config_dir
             get_media_dir
             COMMAND="bash -c \"\$(curl -k https://ddsrem.com/xiaoya/xiaoya_notify.sh | head -n -2 && echo detection_config_update)\" -s \
---auto_update_all_pikpak=no \
+--auto_update_all_115=no \
 --auto_update_config=yes \
 --force_update_config=yes \
 --media_dir=${MEDIA_DIR} \
@@ -475,7 +475,7 @@ function once_sync_emby_config() {
             get_config_dir
             get_media_dir
             COMMAND="bash -c \"\$(curl -k https://ddsrem.com/xiaoya/xiaoya_notify.sh | head -n -2 && echo detection_config_update)\" -s \
---auto_update_all_pikpak=no \
+--auto_update_all_115=no \
 --auto_update_config=yes \
 --force_update_config=yes \
 --media_dir=${MEDIA_DIR} \

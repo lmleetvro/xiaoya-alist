@@ -90,7 +90,6 @@ mirrors=(
     "docker.kejilion.pro"
 )
 
-pikpakshare_list_base64="6auY5riF55S15b2xL+WQiOmbhjEgICAgICAgIFZOUmxOTEFSTG15eTFWbTI1Q0pQcGMwWG8xICAgICBWTlJsTVd3aUxteXkxVm0yNUNKUHBSek1vMQrpq5jmuIXnlLXlvbEv5ZCI6ZuGMiAgICAgICAgVk5SbFZ3UVlRZ3F2Mzk1a3hHQmhQbURvbzEgICBWTlJsT2ZKMFVVOW5qSk9SaHVyemJzZHBvMQrpq5jmuIXnlLXlvbEv5ZCI6ZuGMyAgICAgICAgVk5SbTN5WnRCR3l3S2ExMTh2enZnQWc2bzEgICAgVk5SbGtETExVVTluakpPUmh1cnpoNEZRbzEK6auY5riF55S15b2xL+WQiOmbhjQgICAgICAgIFZOUm1XT21RQkd5d0thMTE4dnp2bFJpWm8xICBWTlJtOEZwZzdhV04zSFdKR1ZHcDhheFRvMSAK6auY5riF55S15b2xL+WQiOmbhjUgICAgICAgICBWTlJtb0Ztb3JvUlJPaEVraG9fOGtZXzFvMSAgICBWTlJtWk1QMVFncXYzOTVreEdCaGQteVFvMQrpq5jmuIXnlLXlvbEv5ZCI6ZuGNiAgICAgICAgICBWTlJuNkhxaUJHeXdLYTExOHZ6dnVxRnFvMSAgICAgVk5SbXJmVEFCR3l3S2ExMTh2enZxYmN0bzEK6auY5riF55S15b2xL+WQiOmbhjcgICAgICAgICAgVk5SbkpBU1Vyb1JST2hFa2hvXzh0cEdmbzEgICAgVk5SbkF6dm5CR3l3S2ExMTh2enZ3RzFXbzEK6auY5riF55S15b2xL+WQiOmbhjggICAgICAgICAgVk5SbGcwcFM3YVdOM0hXSkdWR3AycFpUbzEgIFZOUmxadzRqVVU5bmpKT1JodXJ6ZVYzRW8xCumrmOa4heeUteW9sS/lkIjpm4Y5ICAgICAgIFZOUm5RYk1ON2FXTjNIV0pHVkdwU2t4Rm8xICBWTlJuTmE0cHlNMk5RWWxLbzc4UTcwRl9vMQrpq5jmuIXnlLXlvbEv5ZCI6ZuGMTAgICAgICAgICBWTlJuYWdCVUNmT2lwQkZvV0NYOEVHU2RvMSAgVk5Sblk3dG9nM2Jfb3J3a29IM2F4ZlBCbzEK6auY5riF55S15b2xL+WQiOmbhjExICAgICAgICAgVk5SUjFjYzBMbXl5R0RlMjFBb0s2VWxobzEgICAgVk5SUXpSbmJMbXl5R0RlMjFBb0s1ZC05bzEK6auY5riF5Ymn6ZuGQS/lkIjpm4YxICAgICAgICAgVk5SVDhXcjhCR3l3MWt0MUhraWpLUjRRbzEgICAgVk5RZjZabVdFM3BWV0dwdUZyaUdxeVB6bzEK6auY5riF5Ymn6ZuGQS/lkIjpm4YyICAgICAgICAgVk5SVDhXcjhCR3l3MWt0MUhraWpLUjRRbzEgICAgVk5RZjZaNDVvaGdlWk8xc21vZEtneGxxbzEK6auY5riF5Ymn6ZuGQS/lkIjpm4YzICAgICAgICAgVk5SVDh6WlhnM2JfVllzbjBiQ3dsVmg1bzEgICAgVk5RZjdIdjhFM3BWV0dwdUZyaUdyN25ubzEK6auY5riF5Ymn6ZuGQS/lkIjpm4Y0ICAgICAgICAgVk5SVDh6WlhnM2JfVllzbjBiQ3dsVmg1bzEgICAgVk5RZjdBMFllSV81bU5uaXA3QjJJdllwbzEgIArpq5jmuIXliafpm4ZBL+WQiOmbhjUgICAgICAgICBWTlJUOWVZZUJHeXcxa3QxSGtpakttTF9vMSAgICBWTlFmQW5jSUhWX3EwdmU2X19TOUh3UllvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjYgICAgICAgICBWTlJUOWVZZUJHeXcxa3QxSGtpakttTF9vMSAgICBWTlFmQXdkTkUzcFZXR3B1RnJpR3NMNVBvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjcgICAgICAgICBWTlJUOWVZZUJHeXcxa3QxSGtpakttTF9vMSAgICBWTlFmQjhBWTktc0YzcVdjT09KRDlPSkZvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjggICAgICAgICBWTlJUQTJIT2czYl9WWXNuMGJDd2xoS3lvMSAgICBWTlFmQnJVcm9oZ2V2d1E2WmFWWkUxXzBvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjkgICAgICAgICBWTlJUQTJIT2czYl9WWXNuMGJDd2xoS3lvMSAgICBWTlFmQzVTR0UzcFZXR3B1RnJpR3NnQWNvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjEwICAgICAgICBWTlJUQTJIT2czYl9WWXNuMGJDd2xoS3lvMSAgICBWTlFmQ0FCeDktc0YzcVdjT09KRDlnaHJvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjExICAgICAgICBWTlJUQU1OdkJHeXcxa3QxSGtpakwtbjBvMSAgICBWTlFmQ19FWk9fZTA1dVJIT1Z6UUR1ODNvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjEyICAgICAgICBWTlJUQU1OdkJHeXcxa3QxSGtpakwtbjBvMSAgICBWTlFmQ3EySVR1NVFTMnB1TU8taDNpRUVvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjEzICAgICAgICBWTlJUQU1OdkJHeXcxa3QxSGtpakwtbjBvMSAgICBWTlFmQ3pGNkFlWmpSMy14YkYtSVBBMTJvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjE0ICAgICAgICBWTlJUQWhPWkxteXlYN3lpQ2I2dDFqVHVvMSAgICBWTlFmRFVvbUhWX3FKb2RCMkdCTDg4R2ZvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjE1ICAgICAgICBWTlJUQWhPWkxteXlYN3lpQ2I2dDFqVHVvMSAgICBWTlFmRGN5ck9fZTA1dVJIT1Z6UUVKbndvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjE2ICAgICAgICBWTlJUQWhPWkxteXlYN3lpQ2I2dDFqVHVvMSAgICBWTlFmRUlLOU9fZTBlVl9GX1RNWE53QTlvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjE3ICAgICAgICBWTlJUQWhPWkxteXlYN3lpQ2I2dDFqVHVvMSAgICBWTlFmRWpqYUhWX3FKb2RCMkdCTDhkZUNvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjE4ICAgICAgICBWTlJUQkNLUExteXlYN3lpQ2I2dDFxRUtvMSAgICBWTlFmR25yaVR1NVFjUVN4VVFXblVWVldvMQrpq5jmuIXliafpm4ZBL+WQiOmbhjE5ICAgICAgICBWTlJUQkNLUExteXlYN3lpQ2I2dDFxRUtvMSAgICBWTlFmR3RENmVJXzVieXdtaUkwLVJvcU1vMQrpq5jmuIXliafpm4ZBL+WQiOmbhjIwICAgICAgICBWTlJUQkNLUExteXlYN3lpQ2I2dDFxRUtvMSAgICBWTlFmSDFmczFvZ1dGYVppT3pmNFNxX21vMQrpq5jmuIXliafpm4ZCL+WQiOmbhjIxICAgICAgICBWTlJUQkNLUExteXlYN3lpQ2I2dDFxRUtvMSAgICBWTlFmSDJ5aEFlWmpiVUxuQTFzZmZZQVhvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjIyICAgICAgICBWTlJUQkNLUExteXlYN3lpQ2I2dDFxRUtvMSAgICBWTlFmSERCNWVJXzVieXdtaUkwLVJ0cWRvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjIzICAgICAgICBWTlJUQkNLUExteXlYN3lpQ2I2dDFxRUtvMSAgICBWTlFmSFhmSUUzcFZ5Vy1oMWllaWhmaUZvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjI0ICAgICAgICBWTlJUQ0s0TGczYl9WWXNuMGJDd21lV1hvMSAgICBWTlFmSVRwNk9fZTBzRTlSV3BIdmVFODRvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjI1ICAgICAgICBWTlJUQ0s0TGczYl9WWXNuMGJDd21lV1hvMSAgICBWTlFmSVhWakhWX3EzXzBMNnVwYVdMU3RvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjI2ICAgICAgICBWTlJUQ0s0TGczYl9WWXNuMGJDd21lV1hvMSAgICBWTlFmSV93UlR1NVFoUXRQOHRhMEpGVW5vMQrpq5jmuIXliafpm4ZCL+WQiOmbhjI3ICAgICAgICBWTlJUQ0s0TGczYl9WWXNuMGJDd21lV1hvMSAgICBWTlFmSWNyc1R1NVFoUXRQOHRhMEpHWDRvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjI4ICAgICAgICBWTlJUQ0s0TGczYl9WWXNuMGJDd21lV1hvMSAgICBWTlFmSWY0TW9oZ2VCV3lVaHR5TU5mcW8xCumrmOa4heWJp+mbhkIv5ZCI6ZuGMjkgICAgICAgIFZOUlRDSzRMZzNiX1ZZc24wYkN3bWVXWG8xICAgIFZOUWk2SkIxT19lMGNQd0MwMnJCbERadm8xCumrmOa4heWJp+mbhkIv5ZCI6ZuGMzAgICAgICAgIFZOUlRDbWJuQ2ZPaTFabDJGdDI1U2p3OG8xICAgIFZOUWlBaElfRTNwVlVJQlc1NkJlQV9qQ28xCumrmOa4heWJp+mbhkIv5ZCI6ZuGMzEgICAgICAgIFZOUlRDbWJuQ2ZPaTFabDJGdDI1U2p3OG8xICAgIFZOUWlEd25FM3BWVUlCVzU2QmVBelo2bzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzMiAgICAgICAgVk5SVEQyY2V5TTJOUVlsS283OE1FelkwbzEgICAgVk5RaUZtOHRIVl9xcTJ5MEY4cGdMbzBDbzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzMyAgICAgICAgVk5SVEQyY2V5TTJOUVlsS283OE1FelkwbzEgICAgVk5RaUdKQzJvaGdlTnlGNy1vTHI4Q190bzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzNCAgICAgICAgVk5SVERIX0tCR3l3MWt0MUhraWpNSEc1bzEgICAgVk5RaUlaZXhPX2UwY1B3QzAyckJubnNMbzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzNSAgICAgICAgVk5SVERoOWZRZ3F2XzZsU1k1Wjc1WjVZbzEgICAgVk5RaUprR3BFM3BWVUlCVzU2QmVDRk53bzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzNiAgICAgICAgVk5SVERoOWZRZ3F2XzZsU1k1Wjc1WjVZbzEgICAgVk5RaUtqZWpvaGdlTnlGNy1vTHI5M3ZvbzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzNyAgICAgICAgVk5SVER5c2hRZ3F2XzZsU1k1Wjc1YTQybzEgICAgVk5RaU5QMnFFM3BWVUlCVzU2QmVEMHRIbzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzOCAgICAgICAgVk5SVER5c2hRZ3F2XzZsU1k1Wjc1YTQybzEgICAgVk5RaU1LWU1PX2UwY1B3QzAyckJvWU5jbzEK6auY5riF5Ymn6ZuGQi/lkIjpm4YzOSAgICAgICAgVk5SVEVHMTFyb1JST2hFa2hvXzRxRlBZbzEgICAgVk5RaVFwNGJvaGdlTnlGN29MckFVbXVvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjQwICAgICAgICBWTlJURUcxMXJvUlJPaEVraG9fNHFGUFlvMSAgICBWTlFpUmZuREhWX3FxMnkwRjhwZ052RGJvMQrpq5jmuIXliafpm4ZCL+WQiOmbhjQxICAgICAgICBWTlJURlZiUEJHeXcxa3QxSGtpak1vQmtvMSAgICBWTlFpVjBuS09fZTBjUHdDMDJyQnE0dmJvMQoK"
 pan115share_list_base64="NEtSZW11eCBzdzZwdzc5M3dmcCAyNjI4NDc4MjA5Nzg3MjY0MzE1IHc4MTYK55S15b2xMTA4MFAgc3c2OGZ1dTNubncgMTkyNjk2ODEwNTcyMjgyMzAzMSBwYjU3CueUteW9seaMiea8lOWRmOWvvOa8lOWIhuexuyBzd3owNHByM3poOSAyOTY2MzAyMDA0NDE5NDM4ODA2IHozODEK5ZCI6ZuGMSBzd3p5aXd3M3duOSAyNTI0ODExNTU3NTAwODUyMjc0IHcxZTAK5ZCI6ZuGMiBzd3p5aXdxM3duOSAyNjM3ODkwMjU4Mzc4OTIyNzc3IHg3MTYK5ZCI6ZuGMyBzd3p5aXdiM3duOSAyNjM3ODk2MzYwMjI3MjE1NzQ5IHFmZTgK5Yqo55S755S15b2xIHN3ejZnbWwzZndvIDI3ODM3NTM1OTgxNjc2NzgxNzYgODg4OArmrKfnvo7nlLXlvbEgc3c2OHd6OTNuY2IgMjY1NjIzMjA2MDQwMDM2NTc2OCA2NjY2CueUteinhuWJpy/nvo7liacgc3c2cGx0MjNuY2IgMjYyOTgzMDE4NTMyOTU1Mzc5NiA2NjY2CuWNg+mDqOaKlumfs+efreWJp+WQiOmbhiBzd3pxaDY3M2g0eSAyODQ0Mzg4NTQ1NDg3OTYxMjExIDUyOTYK5oqW6Z+z55+t5Ymn5ZCI6ZuGMS43N1Qgc3d6eDc2ZjN3ZmEgMjk1NTIyMDU3NjczNzAwOTk1OCBuNzI0CueUteinhuWJpy/mrKfnvo7liacgc3d6bm0zNzN3MXAgMjc3NTU2NzExNjY5NjI0NTQxMiBwZTM1Cumfs+S5kDIy5LiH6aaWIHN3em1xY3IzZnM2ICAyNzgzMzA0NDAzNTg1NTk2NTY2IHhkNjcK6Z+z5LmQMjLkuIfpppYvRERTK0hpUmVzIHN3NjU4dXEzNngyIDI1NjU2NzI0MDM3NjYwMDE0MzUgbWQ5OArpn7PkuZAyMuS4h+mmli/mr43luKbns7vliJcgc3c2NTh1cTM2eDIgMjU2NTQxNjQ3OTcwOTExNzg0MyBtZDk4Cumfs+S5kDIy5LiH6aaWL+e0ouWwvOeyvumAiSBzdzY1OHVxMzZ4MiAyNTY1OTE3Mzc5NTE1MDM5MTc2IG1kOTgK6Z+z5LmQMjLkuIfpppYv5ZCE57G76aOO5qC8IHN3NjU4dXEzNngyIDI1NjU0NjY1ODY5NTM0NjQ4NTcgbWQ5OArpn7PkuZAyMuS4h+mmli/ljY7or60yNzAwMOmmluaXoOaNnyBzdzY1OHViMzZ4MiAyNTY1Mjc0MDU1NzgzMzk4NzM0IHE3ZTAK6Z+z5LmQMjLkuIfpppYv5oyJ5q2M5omL5YiG57G7IHN3aGdldHMzemg5IDI5NjQ1OTI2MjY0OTQ1NDg1NTAgbjZlNgrnlLXop4bliacv5pel6Z+p5YmnIHN3emp4Y3Azd2ZhIDI5NTE4NzA2NjMxOTgzNTE2ODYgb2Y4OSAK55S16KeG5YmnL+WbveS6p+WJpyBzd3owb2ZsM3poOSAyOTU2ODE4MDgwOTY2MzIyMjAzIHE1ZjgK55S15b2xL+WOn+ebmCBzd3pldzRtM25jNiAyOTIwNjE5NTc4NzUwOTI1OTQ2IGkwZDcK55S15b2xL+mfqeWbveWOn+ebmCBzd2hpZDV4M3dmYSAzMDQyOTM2NTE2NzE0NTM3MTA1IHhkZjkK55S15b2xL+WPsOa5vuWOn+ebmCBzd2gzcmloM3dmYSAyOTgxNTAzMjEwMTQ0MjQ0NDg2IGc1MTIK55S15b2xL+mmmea4r+WOn+ebmCBzd2hiZnkzM3dmYSAzMDI1MTI0NTg1MTY5NTkyNTcyIGEzNzIK55S15b2xL1VIROWOn+ebmCBzd2hiczRyM3poOSAzMDIzMzMyMDQxNzgxNjE4NzYzIGVjMzgK5ryU5ZSx5LyaL+WOn+ebmCBzd3oxOHduM3poOSAyOTU5NzI0NzQ5NTI2MzQ1OTAwIHlmNjEK5ryU5ZSx5LyaL+WQiOmbhiBzd3oxODA3M3poOSAyOTU2ODk5ODkwOTA3Nzg2MTMwIHM1OTcK5ryU5ZSx5LyaL+iTneWFieWOn+ebmO+8iOW3suWIruWJiu+8iSBzd2h0bDBhM3dmYSAzMTExNDA3Nzg4OTQzMDU3MTIxIHpkNTIK55S16KeG5YmnL+aXpeWJpzEgc3d3M3lqMzN3ZmEgMzE0Mjg5NTgyMTY4OTAzNzY4MSB1YjQ2CueUteinhuWJpy/ml6XliacyIHN3dzZxNzYzd2ZhIDMxNDg2NTk2NDQ0Mjk2MDc1MDEgczIyNwrnlLXop4bliacv5pel5Ymn5bGLIHN3aDkyaTAzd2ZhIDMxMjkxNjA1ODE1OTAxMzExNzUgemRlOArnlLXlvbEvMjAyNSBzd3d6NG1nM3dmYSAzMTU5OTgxODkwMTM3ODU4ODI0IHcxMjgKCg=="
 quarkshare_list_base64="5Yqo5ryrL+WbveWGheWklue7j+WFuOWKqOeUu+WKqOa8q+Wkp+WFqCA2Yjc5NTIxODM0MmQgMjNkOTUxMjcxZDQ2NDY5N2JlMjMyZGJiNzQ2YjIyN2UK5Yqo5ryrL+W3suWujOe7k+Wbvea8qyA2Yjc5NTIxODM0MmQgZjZhYjZkYzAyMTBhNDJiZWEyZGMyYmZlYTM4YzJiZTQK5Yqo5ryrL+W3suWujOe7k+aXpea8qyA2Yjc5NTIxODM0MmQgZDI2NTk1NmUyNDFlNDlkYmJiN2JmNWU3MTYzMGIxOTMK5Yqo5ryrL+W3suWujOe7k+e+jua8qyA2Yjc5NTIxODM0MmQgYzRkNDI5ZGZjNjQ0NDczNzg2YmRiMjJhYTY3NDIxOTAK5bCP5ZOB55u45aOwLzIwMjTlvrfkupHnpL4gZWNlNTJkNjNiNjk4IGRhZTJmMzZkMzZkMDQ3M2I4OWZmODRkYWE4MWI4MzAzCuWwj+WTgeebuOWjsC/lsI/lk4HlpKflkIjpm4YgZTgyNzI2NGVhNDUzIDYwOWM1ZWI4YjMyNDRkYzI5NThiYzEzZjE2ZDQ1NGVkCuWwj+WTgeebuOWjsC/lsI/lk4Hnuq/kuqvlkIjpm4YgZDhiNGE1ODRmZDFhIGE1Mjk5MzQ5ZDM2OTQyMDY4YWRjODhiOTUyYzdjNDYxCueUteW9sS/lkIjpm4Yv5LulQUJDROW8gOWktOWQiOmbhiBhNjMyOTY3NzYwY2YgN2RhNGZkMmRjMDhmNGZhNTg1MmY5OTcyMTU1OTI1MTcK55S15b2xL+WQiOmbhi/ku6VFRkdI5byA5aS05ZCI6ZuGIDJmNTliYjVkOTZiOSA3YjcxNzM3ZTNjZDg0M2M1YTkzN2FjOTdhNTM1NDJkZArnlLXlvbEv5ZCI6ZuGL+S7pUlKS0zlvIDlpLTlkIjpm4YgNTA4MjhjMzY4ZGVmIDA5Njk1MGUzZDEwMjQyYjE5NjZiNzc3ODExMTVhMDdhCueUteW9sS/lkIjpm4Yv5LulTU5PUOW8gOWktOWQiOmbhiBlMDdlMjZhZWNjMDggYTJiMzA1MzE2MzFjNDZkY2IzOWYzMjA2OTc4OTgyOTUK55S15b2xL+WQiOmbhi/ku6VRUlNU5byA5aS05ZCI6ZuGIDA1MzZhMzhhMzU2ZSAxZDE3NWRiMzBlYWE0NTRlOWRiYzVlYWEwOWUxZTQ1NArnlLXlvbEv5ZCI6ZuGL+S7pVVWV1jlvIDlpLTlkIjpm4YgZTI3M2VmNjk3NDAzIDZkYmRhNmU4MTdlYjQxNDViYTJkZDY4MWU1N2FhNjc1CueUteW9sS/lkIjpm4Yv5LulWVrlvIDlpLTlkIjpm4YgYzhhYzZjODhlNWQ4IDQ4YzQ3OWUyNGJhZTRlYzNhNGE5ZDU2ZmNiMDZmY2Y0CueUteW9sS/lkIjpm4Yv5Lul5pWw5a2X5byA5aS05ZCI6ZuGIDQ5YWI3NWQ1MmUwMCBjZWMwNzAyZGIyNmI0N2M1YWJkNDJjYTc5YWJiNjVlMQrnlLXlvbEv5a+85ryUL+WMl+mHjuatpiBmYWIxZWRiOWU1ZWIgZDdiYmZmYzQ1ZWY2NDEwODhmZTRiMjAyOTEwOGJjYWMK55S15b2xL+WvvOa8lC/mtKrph5Hlrp0gYmUyNjFjOGE3ZWI4IGUxZGI5ZDc4NDgyMjQyYzI5NzNkMWNjMjMwNjBjYzFlCueUteW9sS/mvJTlkZgv5YiY5b635Y2OIDE3NjRjMmM4MTYwMyBhYmFlMmY3ZTYxZjU0OTgwODUxNjdlMDdlZjhkZWMzNArnlLXlvbEv5ryU5ZGYL+WRqOaYn+mpsCA2MGRjYTU4MDA5YWYgN2RhNTAyZDI0ZjQ3NGI2MGFmY2MzNDJmZDVhYzBkZTMK55S15b2xL+a8lOWRmC/lkajmtqblj5EgZTU4M2ZhYzQ1NTkyIDgyYzA0OWMxNDA1MDRkNGFhMzFjYmZlMTY0NWNiOWQ4CueUteW9sS/mvJTlkZgv5byg5Zu96I2jIGQzMDAwZjE0OTQyZSA4YzM1ZmNiYjRlODU0ZTUwYjM4NWRmNzAyNjA0ZDM4MgrnlLXlvbEv5ryU5ZGYL+aIkOm+mSBlNWI2NGRmYjFjODMgNjA3Yjg3OWRhMjVjNDQ2NDgzYmM3Zjg5NTBjZDczM2YK55S15b2xL+a8lOWRmC/mnY7kuL3nj40gNDczMzcwZTY1N2MwIGMzOWE1NjYwMDkyZTRiYmFhYzdjYWQzY2YwNjRlMjNjCueUteW9sS/mvJTlkZgv5p2O6L+e5p2wIGJmYzBhNjE1MGFmYyA2ZWViMDM2YzdkN2E0NTgwYWI5NWMxNjViYmVlNzRjMwrnlLXlvbEv5ryU5ZGYL+iIkua3hyA4NGU1M2RkMzc4ZjIgYzU5Yzc4MzU4NGU3NGQ3MDk0Yjk4YTY0OTg0OTI4NzYK55S15b2xL+a8lOWRmC/pgrHmt5HotJ4gYzRiMDQwM2MwZGZhIGE5MjBlMDY1NTVmYjRkNTA5NzU3MGNhMWI0MTBiZDAyCueUteW9sS/nsr7pgInpq5jnlLvotKjpq5jliIbnlLXlvbEgOGYxYjRiN2RjNjllIGQyZTVlOTE2NzRmOTQzNTJiMzMxMGFiODZiOGMyMzhlCueUteW9sS/pn6nlm71S57qnIDU0MzJiZWFlNGYxYSA1MTI0ZjQ3ODlkYWY0NTAwOWJkMTMzYWY1MDk5ODEwMgrnlLXop4bliacvVFZC44CBQVRW5Lqa6KeGIDA4NTIxMmRmMzg1ZCAxNzJiN2VjY2MzODQ0YWU0YTExNDUxZDZhMTQ1ZmZlMArnlLXop4bliacv5bey5a6M57uTL+aVsOWtl+W8gOWktCBjZDRjNWFjN2U4MzAgZGZhMDFjYjE4OTU4NDA4Y2EwZGE3MmIxMzkzMTlhZjMK55S16KeG5YmnL+W3suWujOe7ky/osYbnk6Por4TliIY5LjDku6XkuIrlm73kuqfliacgZDE5YzRlYmUxZmY3IDdiNDI5NDNkNGYyMDQyYWJiOTA3Yzk5ZGRiYjM1NDBkCueUteinhuWJpy/lt7Llroznu5Mv6aaW5a2X5q+NQUJDRCBlMWIyYmE4YjZkNmMgYzg5MjQ2N2IwY2MyNGFhYmFjYmVjNzFhMGI2ZjRkM2MK55S16KeG5YmnL+W3suWujOe7ky/pppblrZfmr41FRkdIIDE2NmZhMGE3Y2E2ZiBmZjU3MDgzZDg5MjM0ZWQzODkzMmRjMDYwOTdkMTE1ZArnlLXop4bliacv5bey5a6M57uTL+mmluWtl+avjUlKS0wgMzdhOTJjMGI3ZjEwIDU4NTkwN2FiYTBlZjQ2NGJhMDBhMGYyMGI0N2ZhMTE2CueUteinhuWJpy/lt7Llroznu5Mv6aaW5a2X5q+NTk1PUCBmYjMzODZlNDJhZjIgMzZlMmY4MWZmNDE0NGE5YzhjMTQ5ODhlZDg5YTg2MGQK55S16KeG5YmnL+W3suWujOe7ky/pppblrZfmr41RUlNUIDQ2Y2UyMTRmNGVkNyAzYjRmOWUwYzY3NTk0OWM5OTI2OTQ3NmU1ZjljMDdhOArnlLXop4bliacv5bey5a6M57uTL+mmluWtl+avjVVWV1ggZmU0NjgxZDdmYjQzIGJjYmNmZDM4ZDI1NDRmNWY5NTFlY2ZlNDMwNDgzMjAzCueUteinhuWJpy/lt7Llroznu5Mv6aaW5a2X5q+NWVogOGQ2NWU4ODViMDU5IDAzNmZkOTg5NWM0YjRhNDdhNTliMTcwNDY3MTU4MTZmCumfs+S5kC/kuabpppnpn7PkuZDkuJbnuqrlhbjol48gZDJkZmEzMjY0N2Y2IDE2N2FlOWVkZDNmZTQ2NjJhMmNlMzc3NTU5ZTM1ZjU4Cumfs+S5kC/lj6Tlhbjpn7PkuZDnsr7pgInlkIjpm4YgMmI0OTc4MjEzYjI5IDY5MDM4ZmYwOTAwNTRhMWViODgwMzEyYmU0Nzc1MzkyCumfs+S5kC/lpKfoh6rnhLbpn7PkuZDns7vliJflkIjpm4YgNjUxZTVmYTkzMDU3IDljOWYzMzM2NzgzZTQ4YWY5ZjQ3YzVlY2Q5OThlOTE0Cumfs+S5kC/nuq/pn7PkuZDlkIjpm4YgMTI4NDgzODFkY2UxIGFlMmNhZWI3ODQ2ZDRmODU4NDY3ZDJiNjI2ZDc4Y2EzCumfs+S5kC/ovabovb3ml6DmjZ/njq/nu5Xpn7PmlYjpn7PkuZDlkIjpm4YgODA1ZDc2YTA4MDYzIDU5M2Y5ODEwNGYxOTQzMDJhMjdhZTkxYmE3Y2QxOGRiCumfs+S5kC/pnIfmkrzlv4PngbXnmoTlj7Lor5fpn7PkuZDlkIjpm4YgZDFhMGI3MDQ2YjIwIDI5NGE1M2EzYzllODRlZjBhMGFjYzA0MTk1YzAyNWQ4Cgo="
 
@@ -855,50 +854,6 @@ function settings_uc_cookie() {
 
 }
 
-function enter_pikpak_account() {
-
-    touch_chmod "${1}/pikpak.txt"
-    INFO "输入你的 PikPak 账号（手机号或邮箱）"
-    INFO "如果手机号，要\"+区号\"，比如你的手机号\"12345678900\"那么就填\"+8612345678900\""
-    read -erp "PikPak_Username:" PikPak_Username
-    INFO "输入你的 PikPak 账号密码"
-    read -erp "PikPak_Password:" PikPak_Password
-    INFO "输入你的 PikPak X-Device-Id"
-    read -erp "PikPak_Device_Id:" PikPak_Device_Id
-    echo -e "\"${PikPak_Username}\" \"${PikPak_Password}\" \"web\" \"${PikPak_Device_Id}\"" > ${1}/pikpak.txt
-
-}
-
-function settings_pikpak_account() {
-
-    if [ "${2}" == "force" ]; then
-        enter_pikpak_account "${1}"
-    elif [ "${2}" == "remove" ]; then
-        if [ -f "${1}/pikpak.txt" ]; then
-            rm -f "${1}/pikpak.txt"
-        fi
-        INFO "删除 pikpak.txt 成功！"
-        sleep 2
-    else
-        if [ ! -f "${1}/pikpak.txt" ]; then
-            while true; do
-                INFO "是否继续配置 PikPak 账号密码 [Y/n]（默认 n 不配置）"
-                read -erp "PikPak_Set:" PikPak_Set
-                [[ -z "${PikPak_Set}" ]] && PikPak_Set="n"
-                if [[ ${PikPak_Set} == [YyNn] ]]; then
-                    break
-                else
-                    ERROR "非法输入，请输入 [Y/n]"
-                fi
-            done
-            if [[ ${PikPak_Set} == [Yy] ]]; then
-                enter_pikpak_account "${1}"
-            fi
-        fi
-    fi
-
-}
-
 function enter_ali2115() {
 
     touch_chmod "${1}/ali2115.txt"
@@ -1206,12 +1161,11 @@ function main_account_management() {
 3、阿里云盘 Refresh Token（mytoken） （当前：$(if [ -f "${config_dir}/mytoken.txt" ]; then if CHECK_OUT=$(check_aliyunpan_refreshtoken "${config_dir}"); then echo -e "${Green}$(echo -e ${CHECK_OUT} | sed 's/\[.*\] //')${Font}"; else echo -e "${Red}错误${Font}"; fi; else echo -e "${Red}未配置${Font}"; fi)）
 4、阿里云盘 Open Token（myopentoken）（当前：$(if [ -f "${config_dir}/myopentoken.txt" ]; then if [ -f "${config_dir}/open_tv_token_url.txt" ]; then if CHECK_OUT=$(check_aliyunpan_tvtoken "${config_dir}"); then echo -e "${Green}$(echo -e ${CHECK_OUT} | sed 's/\[.*\] //')${Font}"; else echo -e "${Red}阿里云盘 TV Token 已失效${Font}"; fi; elif CHECK_OUT=$(check_aliyunpan_opentoken "${config_dir}"); then echo -e "${Green}$(echo -e ${CHECK_OUT} | sed 's/\[.*\] //')${Font}"; else echo -e "${Red}阿里云盘 Open Token 已失效${Font}"; fi; else echo -e "${Red}未配置${Font}"; fi)）
 5、UC Cookie                         （当前：$(if [ -f "${config_dir}/uc_cookie.txt" ]; then if CHECK_OUT=$(check_uc_cookie "${config_dir}"); then echo -e "${Green}$(echo -e ${CHECK_OUT} | sed 's/\[.*\] //')${Font}"; else echo -e "${Red}错误${Font}"; fi; else echo -e "${Red}未配置${Font}"; fi)）
-6、PikPak                            （当前：$(if [ -f "${config_dir}/pikpak.txt" ]; then echo -e "${Green}已配置${Font}"; else echo -e "${Red}未配置${Font}"; fi)）
-7、阿里转存115播放（ali2115.txt）    （当前：$(if [ -f "${config_dir}/ali2115.txt" ]; then echo -e "${Green}已配置${Font}"; else echo -e "${Red}未配置${Font}"; fi)）"
-    echo -e "8、应用配置（自动重启小雅，并返回上级菜单）"
+6、阿里转存115播放（ali2115.txt）    （当前：$(if [ -f "${config_dir}/ali2115.txt" ]; then echo -e "${Green}已配置${Font}"; else echo -e "${Red}未配置${Font}"; fi)）"
+    echo -e "7、应用配置（自动重启小雅，并返回上级菜单）"
     echo -e "0、返回上级（从此处退出不会重启小雅，如果更改了上述配置请手动重启）"
     echo -e "——————————————————————————————————————————————————————————————————————————————————"
-    read -erp "请输入数字 [0-8]:" num
+    read -erp "请输入数字 [0-7]:" num
     case "$num" in
     1)
         clear
@@ -1235,13 +1189,9 @@ function main_account_management() {
         ;;
     6)
         clear
-        main_account_management_level_two "PikPak" settings_pikpak_account "${config_dir}"
-        ;;
-    7)
-        clear
         main_account_management_level_two "阿里转存115播放（ali2115.txt）" settings_ali2115 "${config_dir}"
         ;;
-    8)
+    7)
         clear
         if docker container inspect "$(cat ${DDSREM_CONFIG_DIR}/container_name/xiaoya_alist_name.txt)" > /dev/null 2>&1; then
             INFO "重启小雅容器中..."
@@ -1303,25 +1253,6 @@ function install_xiaoya_alist() {
     fi
 
     settings_aliyunpan_folder_id "${CONFIG_DIR}"
-
-    settings_pikpak_account "${CONFIG_DIR}"
-
-    if [ -f "${CONFIG_DIR}/pikpak.txt" ] && [ ! -f "${CONFIG_DIR}/pikpakshare_list.txt" ] && command -v base64 > /dev/null 2>&1; then
-        while true; do
-            INFO "是否使用小雅官方分享的 pikpakshare_list.txt 文件 [Y/n]（默认 y）"
-            read -erp "pikpakshare_list_choose:" pikpakshare_list_choose
-            [[ -z "${pikpakshare_list_choose}" ]] && pikpakshare_list_choose="y"
-            if [[ ${pikpakshare_list_choose} == [YyNn] ]]; then
-                break
-            else
-                ERROR "非法输入，请输入 [Y/n]"
-            fi
-        done
-        if [[ ${pikpakshare_list_choose} == [Yy] ]]; then
-            echo "${pikpakshare_list_base64}" | base64 --decode > "${CONFIG_DIR}/pikpakshare_list.txt"
-            auto_chown "${CONFIG_DIR}/pikpakshare_list.txt"
-        fi
-    fi
 
     settings_quark_cookie "${CONFIG_DIR}"
 
@@ -2177,11 +2108,6 @@ function check_metadata_size() {
                 return 1
             fi
             ;;
-        pikpak.mp4)
-            if [[ "$2" -le 14000000 ]]; then
-                return 1
-            fi
-            ;;
         115.mp4)
             if [[ "$2" -le 16000000 ]]; then
                 return 1
@@ -2832,10 +2758,8 @@ function main_download_unzip_xiaoya_emby() {
         echo -e "5、解压 all.mp4 的指定元数据目录【非全部解压】"
         echo -e "6、下载 config.mp4（4.9.0.42）"
         echo -e "7、解压 config.mp4（4.9.0.42）"
-        echo -e "8、下载 pikpak.mp4"
-        echo -e "9、解压 pikpak.mp4"
-        echo -e "10、下载 115.mp4"
-        echo -e "11、解压 115.mp4"
+        echo -e "8、下载 115.mp4"
+        echo -e "9、解压 115.mp4"
         echo -e "n、下一页"
         echo -e "0、返回上级"
         echo -e "——————————————————————————————————————————————————————————————————————————————————"
@@ -2846,16 +2770,16 @@ function main_download_unzip_xiaoya_emby() {
 
         echo -e "——————————————————————————————————————————————————————————————————————————————————"
         echo -e "${Blue}下载/解压 元数据${Font}\n"
-        echo -e "12、解压 115.mp4 的指定元数据目录【非全部解压】"
-        echo -e "13、下载 蓝光原盘.mp4"
-        echo -e "14、解压 蓝光原盘.mp4"
-        echo -e "15、下载 json.mp4"
-        echo -e "16、解压 json.mp4"
-        echo -e "17、下载 music.mp4"
-        echo -e "18、解压 music.mp4"
-        echo -e "19、下载 短剧.mp4"
-        echo -e "20、解压 短剧.mp4"
-        echo -e "21、当前下载器【aria2/wget】                  当前状态：${Green}${__data_downloader}${Font}"
+        echo -e "10、解压 115.mp4 的指定元数据目录【非全部解压】"
+        echo -e "11、下载 蓝光原盘.mp4"
+        echo -e "12、解压 蓝光原盘.mp4"
+        echo -e "13、下载 json.mp4"
+        echo -e "14、解压 json.mp4"
+        echo -e "15、下载 music.mp4"
+        echo -e "16、解压 music.mp4"
+        echo -e "17、下载 短剧.mp4"
+        echo -e "18、解压 短剧.mp4"
+        echo -e "19、当前下载器【aria2/wget】                  当前状态：${Green}${__data_downloader}${Font}"
         # echo -e "101、下载并解压 config.new.mp4（4.9.0.42）"
         echo -e "p、上一页"
         echo -e "——————————————————————————————————————————————————————————————————————————————————"
@@ -2870,9 +2794,9 @@ function main_download_unzip_xiaoya_emby() {
         page="${1}"
     fi
     "main_download_unzip_xiaoya_emby_page${page}"
-    read -erp "请输入数字（支持输入多个数字，空格分离，按输入顺序执行）[0-21]:" -a nums
+    read -erp "请输入数字（支持输入多个数字，空格分离，按输入顺序执行）[0-19]:" -a nums
     for num in "${nums[@]}"; do
-        if [ $num -ge 1 ] && [ $num -le 20 ]; then
+        if [ $num -ge 1 ] && [ $num -le 18 ]; then
             case "$num" in
             1)
                 clear
@@ -2904,53 +2828,45 @@ function main_download_unzip_xiaoya_emby() {
                 ;;
             8)
                 clear
-                download_xiaoya_emby "pikpak.mp4"
+                download_xiaoya_emby "115.mp4"
                 ;;
             9)
                 clear
-                unzip_xiaoya_emby "pikpak.mp4"
+                unzip_xiaoya_emby "115.mp4"
                 ;;
             10)
                 clear
-                download_xiaoya_emby "115.mp4"
+                unzip_appoint_xiaoya_emby_jellyfin "115.mp4"
                 ;;
             11)
                 clear
-                unzip_xiaoya_emby "115.mp4"
+                download_xiaoya_emby "蓝光原盘.mp4"
                 ;;
             12)
                 clear
-                unzip_appoint_xiaoya_emby_jellyfin "115.mp4"
+                unzip_xiaoya_emby "蓝光原盘.mp4"
                 ;;
             13)
                 clear
-                download_xiaoya_emby "蓝光原盘.mp4"
+                download_xiaoya_emby "json.mp4"
                 ;;
             14)
                 clear
-                unzip_xiaoya_emby "蓝光原盘.mp4"
+                unzip_xiaoya_emby "json.mp4"
                 ;;
             15)
                 clear
-                download_xiaoya_emby "json.mp4"
+                download_xiaoya_emby "music.mp4"
                 ;;
             16)
                 clear
-                unzip_xiaoya_emby "json.mp4"
+                unzip_xiaoya_emby "music.mp4"
                 ;;
             17)
                 clear
-                download_xiaoya_emby "music.mp4"
-                ;;
-            18)
-                clear
-                unzip_xiaoya_emby "music.mp4"
-                ;;
-            19)
-                clear
                 download_xiaoya_emby "短剧.mp4"
                 ;;
-            20)
+            18)
                 clear
                 unzip_xiaoya_emby "短剧.mp4"
                 ;;
@@ -2960,7 +2876,7 @@ function main_download_unzip_xiaoya_emby() {
             clear
             download_unzip_xiaoya_emby_new_config
             __next_operate=return_menu
-        elif [ $num == 21 ]; then
+        elif [ $num == 19 ]; then
             if [ "${__data_downloader}" == "wget" ]; then
                 echo 'aria2' > ${DDSREM_CONFIG_DIR}/data_downloader.txt
             elif [ "${__data_downloader}" == "aria2" ]; then
@@ -5195,10 +5111,6 @@ function install_xiaoya_alist_tvbox() {
         cp -rf ${CONFIG_DIR}/*.txt ${CONFIG_DIR}/xiaoya_backup
         INFO "完成备份小雅配置数据！"
         INFO "备份数据路径：${CONFIG_DIR}/xiaoya_backup"
-    fi
-
-    if ! grep "access.mypikpak.com" ${HOSTS_FILE_PATH}; then
-        echo -e "127.0.0.1\taccess.mypikpak.com" >> ${HOSTS_FILE_PATH}
     fi
 
     docker_pull "haroldli/xiaoya-tvbox:${__choose_native}"
