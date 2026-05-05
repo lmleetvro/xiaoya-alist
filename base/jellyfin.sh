@@ -94,8 +94,6 @@ function download_wget_unzip_xiaoya_all_jellyfin() {
     extra_parameters="--workdir=/media/xiaoya"
     pull_run_glue 7z x -aoa -mmt=16 /media/temp/all_jf.mp4
 
-    
-
     end_time1=$(date +%s)
     total_time1=$((end_time1 - start_time1))
     total_time1=$((total_time1 / 60))
@@ -159,7 +157,6 @@ function download_unzip_xiaoya_all_jellyfin() {
         ERROR "all_jf.mp4 下载失败！"
         exit 1
     fi
-    
 
     start_time1=$(date +%s)
 
@@ -179,8 +176,6 @@ function download_unzip_xiaoya_all_jellyfin() {
     fi
     extra_parameters="--workdir=/media/xiaoya"
     pull_run_glue 7z x -aoa -mmt=16 /media/temp/all_jf.mp4
-
-    
 
     end_time1=$(date +%s)
     total_time1=$((end_time1 - start_time1))
@@ -224,8 +219,6 @@ function unzip_xiaoya_all_jellyfin() {
     fi
     extra_parameters="--workdir=/media/xiaoya"
     pull_run_glue 7z x -aoa -mmt=16 /media/temp/all_jf.mp4
-
-    
 
     end_time1=$(date +%s)
     total_time1=$((end_time1 - start_time1))
